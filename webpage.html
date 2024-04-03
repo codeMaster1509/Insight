@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senior Survey - Insights</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="icon" type="image/x-icon" href="whitefavicon.png">
+    <script defer src="node_modules/swup/dist/swup_min.js"></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="transition.css">
+</head>
+<body id="swup" class="transitionFade">
+    <section class="header">
+        <nav>
+            <a href="https://insightiitb.org/" class="logo1"><img src="logo.png"; width="150" alt="" height="50px" width="150px"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a class="active" href="#home">Home</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                  </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="buttons">
+            <a href="acads.html">Academics</a>
+            <a href="career.html">Career</a>
+            <a href="personal.html">Personal</a>
+            <a href="miscellaneous.html">Miscellaneous</a>
+        </div>
+        
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="acads.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <title>Senior Survey - Insights/Academics</title>
+    <script defer src="node_modules/swup/dist/swup_min.js"></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="transition.css">
+</head>
+<body id="swup" class="transitionFade">
+    <section class="acad">
+        <div class="sidebar">
+              <h1>The Senior Survey</h1>
+            <ul>
+                <li><a href="acads.html">Academics</a></li>
+                <li><a href="career.html">Career</a></li>
+                <li><a href="personal.html">Personal</a></li>
+                <li><a href="miscellaneous.html">Miscellaneous</a></li>
+            </ul>
+        </div>
+
+        <div class="academics">
+            <h1>Academics</h1>
+            <br><br>
+            <h2>Which Department are you from?</h2>
+            <img src="graph1.png" alt="Department">
+            <h2>Which Degree will you be graduating with?</h2>
+            
+            <div class="chart">
+                <canvas id="barchart"></canvas>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+            <script src="chart1.js" ></script>
+
+            <h2>What was your CPI?</h2>
+            
+            <div class="chart">
+                <canvas id="doughnut"></canvas>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+            <script src="chart2.js" ></script>
+
+            <h2>Which hostel did you stay in?</h2>
+            <img src="hostel.png" alt="Hostel">
+            <h2>How important a role do you think one's CPI plays?</h2>
+            <img src="cpiRole.png" alt="CPIRole">
+            <h2>Were you interested in core when you first joined the institute?<br>
+                Are you now interested in core, as you leave the institute?</h2>
+            <img src="coreNoncore.png" alt="Interest in Core">
+            <h2>When did you Lost/Gain interest in core?</h2>
+            <img src="field.png" class="lastImage" alt="Interest in core">
+
+            
+            <div class="buttons">
+                <a class="left" href="miscellaneous.html"><i class="fa fa-arrow-left"></i><pre>       Miscellaneous</pre></a>
+                <a class="right" href="career.html">Career <i class="fa fa-arrow-right"></i></a>
+            </div>
+
+            <img class="footlogo" src="foot.png" alt="foot">
+            <p class="footnote">COPYRIGHT © 2021 INSIGHT, IIT BOMBAY</p>
+
+            <!-- <i class="fa fa-arrow-up"></i> -->
+            <a class="back" href="acads.html"><i class="fa fa-arrow-up"></i> Back to Top</a>
+        </div>
+
+        
+        
+          
+    </section>
+</body>
+</html>

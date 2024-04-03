@@ -1,0 +1,15 @@
+.acads{
+    opacity: 1;
+    transition: 500ms;
+    transform: translateX(0);
+    transform-origin: left;
+}
+
+html.is-animating .transitionFade{
+    opacity: 1;
+    transform: translateX(100%);
+}
+
+html.is-leaving .transitionFade{
+    opacity: 0;
+}
