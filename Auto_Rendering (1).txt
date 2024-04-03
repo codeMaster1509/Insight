@@ -1,0 +1,5 @@
+In the assignment, I have used the auto rendering feature on the home page, when we reduce the size of the page below 500px the page turns into the page for mobile screen and the nav bar turns into a side bar menu with open and close button on it.
+
+Along with this, i have addded the interactive charts in academic ques in first 2 ques, one is degree you are graduating with, and secons ques is - What was your CPI.
+
+Link to the hosted website through github: https://codemaster1509.github.io/Insight/
